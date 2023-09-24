@@ -1,4 +1,9 @@
-# implementing a min-heap
+"""
+implementing a min-heap
+inserting to a heap: O(log n)
+deleting top from a heap: O(log n)
+retriving the top element: O(1)
+"""
 class MinHeap():
 
     items = []
